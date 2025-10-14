@@ -25,7 +25,7 @@ public class WordMatch {
      * for a
      * tie-breaker that are described in part (b)
      * Precondition: guess1 and guess2 contain all lowercase letters.
-     * guess1 is not the same as guess2
+     * guess1 is not the same as guess
      */
     public String findBetterGuess (String guess1, String guess2) {
         if (scoreGuess(guess1) > scoreGuess(guess2))
